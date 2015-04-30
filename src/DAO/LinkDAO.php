@@ -80,7 +80,7 @@ class LinkDAO extends DAO
      * @param integer $id
      */
     public function delete($id){
-        // Delete the article
+        // Delete the link
         $this->getDb()->delete('t_link', array('link_id' => $id));
     }
 

@@ -57,7 +57,11 @@ class AppTest extends WebTestCase
             array('/link/submit'),
             array('/admin'),
             array('/api/links'),
-            array('/api/link/1')
+            array('/api/link/1'),
+            // OpenClassrooms - Test for optional features
+            array('/admin/link/1/edit'),
+            array('/admin/user/add'),
+            array('/admin/user/1/edit')
         );
     }
 }
